@@ -1,0 +1,5 @@
+local childcovars="child_age  child_female  child_nonwestern "
+local gpa=" child_std_gpa9 "
+local parentcovars=" i.parents_incomeobs i.parents_eduobs parents_schooling c.parents_schooling#c.parents_schooling parents_income c.parents_income#c.parents_income  "
+local covars="`childcovars' `parentcovars' `gpa' "
+local model="grades_pregrades_std c.grades_pregrades_std#c.grades_pregrades_std  "
