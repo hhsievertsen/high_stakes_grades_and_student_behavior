@@ -13,6 +13,6 @@ The repository contains three folders:
 	* the folder *databuild* contains Stata .do files that creates the dataset used for analyses based on files from Statistics Denmark.
 	* the folder *analysis* contains Stata .do files that creates all tables and figures for the manuscript.
 3. **grade combinations** contains two files. 
-	* *combinations.py* calculations the number of combinations that can lead to a certain GPA
+	* *combinations.py* calculates the number of combinations that can lead to a certain GPA
 	* *create_charts_in_R* creates visualizations using the results combinations.py.
 
